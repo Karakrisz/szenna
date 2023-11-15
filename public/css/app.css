@@ -1,10 +1,257 @@
 /******************** Boaz start **********************/
 
+@font-face {
+    src: url(../font/Metropolis-Medium.otf);
+    font-family: Metropolis-med;
+}
+
 *,
 :after,
 :before {
     box-sizing: border-box;
 }
+
+body {
+    max-width: 2570px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.float-right {
+    float: right;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.text-transform-uppercase {
+    text-transform: uppercase
+}
+
+.t-end {
+    text-align: end;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.map {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+
+/********************  Header formating start **********************/
+
+header {
+    background-color: black;
+    font-family: Metropolis-med;
+}
+
+.navbar {
+    align-items: center;
+    max-width: 100%;
+    margin: 0 5em;
+}
+
+.navbar-logo-box {
+    width: 25%;
+    margin-top: 1em;
+}
+
+.navbar-logo-box__img {
+    width: 50%;
+}
+
+.menu {
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 4.7%;
+    width: 50%;
+}
+
+.menu.active {
+    right: 0;
+}
+
+.menu li {
+    padding-right: 4em;
+}
+
+.menu__elem--pr-0 {
+    padding-right: 0 !important;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.bar {
+    width: 33px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+
+.menu {
+    justify-content: center;
+}
+
+.navbar__link-box {
+    width: 25%;
+}
+
+.navbar__link-box__p {
+    margin: 0;
+}
+
+.navbar__link-box__p__link {
+    color: #fff;
+}
+
+.navbar__link-box__p__link__img {
+    width: 30px;
+    height: 25px;
+}
+
+
+/********************  Header formating end **********************/
+
+
+/********************  Media formating start **********************/
+
+@media screen and (max-width: 767px) {
+    .hamburger {
+        display: flex;
+        background: #d74558;
+        padding: 0.5rem;
+        margin: 0 1.5em 0 0;
+        bottom: 33px;
+    }
+    .menu.hidden {
+        display: none;
+    }
+    .menu {
+        opacity: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        background-color: #D74558;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 100;
+        margin: 0;
+        border: 5px solid #fff;
+        border-bottom: 0;
+        min-height: 100%;
+    }
+    .menu.active {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    .menu li {
+        margin: 10px;
+    }
+    .header__right-box,
+    .menu {
+        justify-content: flex-start;
+    }
+    .header__right-box,
+    .menu {
+        flex-direction: column;
+    }
+    .navbar {
+        align-items: baseline;
+        flex-direction: unset;
+    }
+    .header__right-box {
+        text-align: left;
+    }
+    .header__right-box__div {
+        margin-bottom: 0.5em;
+    }
+    .header__right-box__div__link__img {
+        width: 3vh;
+    }
+    .navbar.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .navbar.active .bar:first-child {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .navbar.active .bar:last-child {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .navbar-logo-box {
+        width: 33%;
+        margin: 0;
+    }
+    .header__right-box__div__link,
+    .menu li a {
+        font-size: 1rem;
+    }
+    .menu li {
+        padding-right: 1em;
+        margin: 1.6em 0 0 0;
+    }
+    .menu__link__img {
+        width: 30px;
+        margin-left: -14px;
+    }
+}
+
+
+/********************  Media formating end **********************/
 
 
 /******************** Boaz end **********************/
