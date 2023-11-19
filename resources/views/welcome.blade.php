@@ -57,20 +57,25 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
-                        <img
-                            src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                        <img src="img/gallery/gallery.webp">
                     </li>
                     <li class="splide__slide">
-                        <img
-                            src="https://images.pexels.com/photos/458766/pexels-photo-458766.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                        <img src="img/gallery/gallery2.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img
-                            src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                        <img src="img/gallery/gallery3.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img
-                            src="http://wallpaperswide.com/download/the_elder_scrolls_v_skyrim_key_art-wallpaper-2560x1080.jpg">
+                        <img src="img/gallery/gallery4.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="img/gallery/gallery5.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="img/gallery/gallery6.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="img/gallery/gallery7.jpg">
                     </li>
                 </ul>
             </div>
@@ -80,20 +85,25 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
-                        <img
-                            src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                        <img src="img/gallery/gallery.webp">
                     </li>
                     <li class="splide__slide">
-                        <img
-                            src="https://images.pexels.com/photos/458766/pexels-photo-458766.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                        <img src="img/gallery/gallery2.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img
-                            src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                        <img src="img/gallery/gallery3.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img
-                            src="http://wallpaperswide.com/download/the_elder_scrolls_v_skyrim_key_art-wallpaper-2560x1080.jpg">
+                        <img src="img/gallery/gallery4.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="img/gallery/gallery5.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="img/gallery/gallery6.jpg">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="img/gallery/gallery7.jpg">
                     </li>
                 </ul>
             </div>

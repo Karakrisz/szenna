@@ -43,13 +43,11 @@ const menuManager = new MenuManager('hamburger', 'menu', '.navbar');
 
 document.addEventListener('DOMContentLoaded', function() {
 
-    // Create and mount the thumbnails slider.
     var secondarySlider = new Splide('#secondary-slider', {
         rewind: true,
         fixedWidth: 100,
         fixedHeight: 64,
         isNavigation: true,
-        gap: 10,
         focus: 'center',
         pagination: false,
         cover: true,
@@ -58,8 +56,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 fixedWidth: 66,
                 fixedHeight: 40,
             }
-        }
+        },
+        perPage: 6,
+        gap: 10,
     }).mount();
+
+
 
     // Create the main slider.
     var primarySlider = new Splide('#primary-slider', {

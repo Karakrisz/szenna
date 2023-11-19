@@ -296,15 +296,6 @@ header {
 
 /********************  Gallery formating start **********************/
 
-#primary-slider {
-    margin-bottom: 20px;
-}
-
-#primary-slider .splide__list {
-    background-color: hsla(70, 50%, 50%, 0.5);
-    margin-bottom: 20px;
-}
-
 .splide__slide {
     display: flex;
     justify-content: center;
@@ -312,6 +303,7 @@ header {
     height: 400px;
     width: 580px;
     overflow: hidden;
+    opacity: 0.3;
 }
 
 .splide__slide img {
@@ -323,17 +315,26 @@ header {
     max-height: 100%;
 }
 
-.splide__slide img {
-    width: 100%;
-    height: auto;
-}
-
-.splide__slide {
-    opacity: 0.3;
-}
-
 .splide__slide.is-active {
     opacity: 1;
+}
+
+
+/* Módosítások a másodlagos sliderhez */
+
+#secondary-slider .splide__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#secondary-slider .splide__slide {
+    flex: 0 0 calc(16.666% - 10px);
+    margin-right: 10px;
+}
+
+#secondary-slider .splide__slide:last-child {
+    margin-right: 0;
 }
 
 
