@@ -45,8 +45,6 @@
 
         </div>
 
-
-
     </div>
 </section>
 
@@ -54,6 +52,54 @@
 
     <div class="gallery-content">
         <h4 class="gallery-content__h4 text-center text-transform-uppercase">GALÉRIA</h4>
+
+        <div id="primary-slider" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img
+                            src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img
+                            src="https://images.pexels.com/photos/458766/pexels-photo-458766.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img
+                            src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img
+                            src="http://wallpaperswide.com/download/the_elder_scrolls_v_skyrim_key_art-wallpaper-2560x1080.jpg">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="secondary-slider" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img
+                            src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img
+                            src="https://images.pexels.com/photos/458766/pexels-photo-458766.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img
+                            src="https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+                    </li>
+                    <li class="splide__slide">
+                        <img
+                            src="http://wallpaperswide.com/download/the_elder_scrolls_v_skyrim_key_art-wallpaper-2560x1080.jpg">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
     </div>
 
 </section>
