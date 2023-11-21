@@ -20,9 +20,9 @@
 
             <div class="about-content__flex-box__div"></div>
 
-            <div class="about-content__img-text-box">
-
-                <div class="about-content__img-text-box__text-box">
+            <div class="about-content__img-text-box position-relative">
+                <div class="about-content__img-text-box__bg-box position-absolute"></div>
+                <div class="about-content__img-text-box__text-box position-relative">
                     <h2 class="about-content__img-text-box__text-box__h2 text-transform-uppercase">MI VAGYUNK A</h2>
                     <h3 class="about-content__img-text-box__text-box__h3 text-transform-uppercase">BOJTOROS FALATOZÓ
                     </h3>
@@ -85,25 +85,25 @@
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide">
-                        <img src="img/gallery/gallery.webp">
+                        <img class="splide__slide__img" src="img/gallery/gallery.webp">
                     </li>
                     <li class="splide__slide">
-                        <img src="img/gallery/gallery2.jpg">
+                        <img class="splide__slide__img" src="img/gallery/gallery2.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="img/gallery/gallery3.jpg">
+                        <img class="splide__slide__img" src="img/gallery/gallery3.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="img/gallery/gallery4.jpg">
+                        <img class="splide__slide__img" src="img/gallery/gallery4.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="img/gallery/gallery5.jpg">
+                        <img class="splide__slide__img" src="img/gallery/gallery5.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="img/gallery/gallery6.jpg">
+                        <img class="splide__slide__img" src="img/gallery/gallery6.jpg">
                     </li>
                     <li class="splide__slide">
-                        <img src="img/gallery/gallery7.jpg">
+                        <img class="splide__slide__img" src="img/gallery/gallery7.jpg">
                     </li>
                 </ul>
             </div>

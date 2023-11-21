@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var secondarySlider = new Splide('#secondary-slider', {
         rewind: true,
         fixedWidth: 100,
-        fixedHeight: 64,
+        fixedHeight: 200,
         isNavigation: true,
         focus: 'center',
         pagination: false,
@@ -58,15 +58,13 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         },
         perPage: 6,
-        gap: 10,
+        gap: 5,
     }).mount();
-
 
 
     // Create the main slider.
     var primarySlider = new Splide('#primary-slider', {
         type: 'fade',
-        // heightRatio: 0.5,
         pagination: false,
         arrows: false,
         cover: true,

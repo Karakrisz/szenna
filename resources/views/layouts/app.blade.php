@@ -81,9 +81,11 @@
 
         <div class="footer-content d-flex">
 
-            <div class="footer-content__link-box">
-                <h5 class="footer-content__link-box__h5 text-transform-uppercase">FOGLALJON IDŐPONTOT</h5>
-                <div class="footer-content__link-box__div">
+            <div class="footer-content__link-box position-relative">
+                <div class="footer-content__link-box__bg-box position-absolute"></div>
+                <h5 class="footer-content__link-box__h5 text-transform-uppercase position-relative">FOGLALJON IDŐPONTOT
+                </h5>
+                <div class="footer-content__link-box__div position-relative">
                     <p class="footer-content__link-box__div__p">
                         <a class="footer-content__link-box__div__p__link" href="tel:+36209834929">
                             <img class="position-relative footer-content__link-box__div__p__link__img"
