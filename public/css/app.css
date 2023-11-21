@@ -180,6 +180,7 @@ header {
 }
 
 .navbar__link-box__p__link,
+.menu-content__h4,
 .about-content__h1,
 .gallery-content__h4,
 .footer-content__link-box__h5,
@@ -218,6 +219,12 @@ header {
 
 /********************  Menu formating start **********************/
 
+.menu-content {
+    background-image: url(../img/menu/menu.webp);
+    background-size: cover;
+    background-position-y: -0.3em;
+}
+
 
 /********************  Menu formating end **********************/
 
@@ -248,6 +255,7 @@ header {
 }
 
 .about-content__h1,
+.menu-content__h4,
 .gallery-content__h4,
 .footer-content__link-box__h5 {
     font-family: Metropolis-bold;

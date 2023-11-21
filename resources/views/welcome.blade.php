@@ -8,7 +8,9 @@
 </section>
 
 <section>
-    Étlap
+    <div class="menu-content">
+        <h4 class="menu-content__h4 text-center text-transform-uppercase">ÉTLAP</h4>
+    </div>
 </section>
 
 <section>
