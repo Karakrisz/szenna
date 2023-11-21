@@ -31,6 +31,52 @@
                         <p class="menu-content__text-box__div__text-box__p">Idényjellegű gyümölcskrémleves</p>
                         <strong class="menu-content__text-box__div__text-box__strong">2700 Ft</strong>
                     </div>
+
+                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">SZÁRNYASÉTEL</h6>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Csirkemell fűszervajjal</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Rántott csirkemell</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
+                    </div>
+
+                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">SERTÉSÉTEL</h6>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Rántott szelet karajból</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Szennai zsebes hús</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Zselici sertéspofa erdei gombamártással</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Csülök jóasszony módra</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Tüzes csülök chilivel és mézzel</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                    </div>
+
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Cigánypecsenye</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
+                    </div>
+
                 </div>
 
             </div>
@@ -38,8 +84,7 @@
             <div class="menu-content__text-box__div">
                 <div class="menu-content__text-box__div__margin-left-box">
                     <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">PIZZA</h6>
-                    <!-- Magyaros Tonhalas Húsimádó Szennai tüzes 4 sajtos Napsütötte Séf ajánlata
-                Hawaii Kukori Csibém Kívánság -->
+
                     <div class="menu-content__text-box__div__text-box d-flex">
                         <p class="menu-content__text-box__div__text-box__p">Margarita</p>
                         <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
@@ -53,6 +98,73 @@
                     <div class="menu-content__text-box__div__text-box d-flex">
                         <p class="menu-content__text-box__div__text-box__p">Son Goku</p>
                         <strong class="menu-content__text-box__div__text-box__strong">2700 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Magyaros</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Tonhalas</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Húsimádó</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2700 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Szennai tüzes</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">4 sajtos</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Napsütötte</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2700 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Séf ajánlata</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Hawaii</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Kukori</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2700 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Csibém</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Kívánság</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
+                    </div>
+
+                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">TÉSZTA</h6>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Bolognai spagetti</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Sajtos tészta</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
                     </div>
                 </div>
             </div>
