@@ -46,7 +46,8 @@ p,
 }
 
 p,
-.copyright__link-box__link {
+.copyright__link-box__link,
+.menu-content__text-box__div__text-box__strong {
     font-family: Metropolis-med;
 }
 
@@ -108,10 +109,16 @@ header {
 }
 
 .navbar {
-    align-items: center;
     max-width: 100%;
     margin: 0 5em;
     padding-top: 2em;
+}
+
+.navbar,
+.menu,
+.splide__slide,
+.menu-content__text-box__div__text-box {
+    align-items: center;
 }
 
 .navbar-logo-box {
@@ -126,7 +133,6 @@ header {
 .menu {
     list-style: none;
     flex-wrap: wrap;
-    align-items: center;
     padding-right: 4.7%;
     width: 50%;
 }
@@ -181,6 +187,9 @@ header {
 
 .navbar__link-box__p__link,
 .menu-content__h4,
+.menu-content__text-box__div__h6,
+.menu-content__text-box__div__text-box__p,
+.menu-content__text-box__div__text-box__strong,
 .about-content__h1,
 .gallery-content__h4,
 .footer-content__link-box__h5,
@@ -225,6 +234,18 @@ header {
     background-position-y: -0.3em;
 }
 
+.menu-content__text-box__div {
+    width: 50%;
+}
+
+.menu-content__text-box__div__h6 {
+    padding: 0.5em 0;
+}
+
+.menu-content__text-box__div__text-box {
+    justify-content: space-between;
+}
+
 
 /********************  Menu formating end **********************/
 
@@ -241,6 +262,7 @@ header {
 }
 
 .about-content,
+.menu-content,
 .gallery-content,
 .footer-content,
 .copyright {
@@ -256,11 +278,18 @@ header {
 
 .about-content__h1,
 .menu-content__h4,
+.menu-content__text-box__div__h6,
 .gallery-content__h4,
 .footer-content__link-box__h5 {
     font-family: Metropolis-bold;
-    padding: 1.3em 0;
     font-size: 1.7rem;
+}
+
+.about-content__h1,
+.menu-content__h4,
+.gallery-content__h4,
+.footer-content__link-box__h5 {
+    padding: 1.3em 0;
 }
 
 .about-content__img-text-box__text-box__h2 {
@@ -328,7 +357,6 @@ header {
 .splide__slide {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 500px;
     width: 580px;
     overflow: hidden;
@@ -532,6 +560,34 @@ header {
     .menu__link__img {
         width: 30px;
         margin-left: -14px;
+    }
+    .table thead {
+        display: none;
+    }
+    .table,
+    .table tbody,
+    .table tr,
+    .table td {
+        display: block;
+        width: 100%;
+    }
+    .table tr {
+        margin-bottom: 15px;
+    }
+    .table td {
+        padding-left: 50%;
+        text-align: left;
+        position: relative;
+    }
+    .table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
     }
 }
 

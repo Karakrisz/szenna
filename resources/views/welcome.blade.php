@@ -10,6 +10,19 @@
 <section>
     <div class="menu-content">
         <h4 class="menu-content__h4 text-center text-transform-uppercase">ÉTLAP</h4>
+
+        <div class="menu-content__text-box d-flex">
+
+            <div class="menu-content__text-box__div">
+                <h6 class="menu-content__text-box__div__h6">LEVES</h6>
+                <div class="menu-content__text-box__div__text-box d-flex">
+                    <p class="menu-content__text-box__div__text-box__p">Fácánleves gazdagon</p>
+                    <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 </section>
 
