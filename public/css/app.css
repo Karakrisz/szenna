@@ -46,8 +46,7 @@ p,
 }
 
 p,
-.copyright__link-box__link,
-.menu-content__text-box__div__text-box__strong {
+.copyright__link-box__link {
     font-family: Metropolis-med;
 }
 
@@ -239,11 +238,23 @@ header {
 }
 
 .menu-content__text-box__div__h6 {
-    padding: 0.5em 0;
+    padding: 1.3em 0 1.3em 0;
 }
 
 .menu-content__text-box__div__text-box {
     justify-content: space-between;
+}
+
+.menu-content__text-box__div__text-box__p {
+    margin: 0.1em 0;
+}
+
+.menu-content__text-box__div__margin-right-box {
+    margin-right: 3em;
+}
+
+.menu-content__text-box__div__margin-left-box {
+    margin-left: 3em;
 }
 
 
@@ -276,12 +287,20 @@ header {
     background: #000;
 }
 
+.menu-content__text-box__div__text-box__strong,
 .about-content__h1,
 .menu-content__h4,
 .menu-content__text-box__div__h6,
 .gallery-content__h4,
 .footer-content__link-box__h5 {
     font-family: Metropolis-bold;
+}
+
+.about-content__h1,
+.menu-content__h4,
+.menu-content__text-box__div__h6,
+.gallery-content__h4,
+.footer-content__link-box__h5 {
     font-size: 1.7rem;
 }
 

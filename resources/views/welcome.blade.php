@@ -14,10 +14,46 @@
         <div class="menu-content__text-box d-flex">
 
             <div class="menu-content__text-box__div">
-                <h6 class="menu-content__text-box__div__h6">LEVES</h6>
-                <div class="menu-content__text-box__div__text-box d-flex">
-                    <p class="menu-content__text-box__div__text-box__p">Fácánleves gazdagon</p>
-                    <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                <div class="menu-content__text-box__div__margin-right-box">
+                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">LEVES</h6>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Fácánleves gazdagon</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Tárkonyos borjúraguleves</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Idényjellegű gyümölcskrémleves</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2700 Ft</strong>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="menu-content__text-box__div">
+                <div class="menu-content__text-box__div__margin-left-box">
+                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">PIZZA</h6>
+                    <!-- Magyaros Tonhalas Húsimádó Szennai tüzes 4 sajtos Napsütötte Séf ajánlata
+                Hawaii Kukori Csibém Kívánság -->
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Margarita</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Sicilian</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p class="menu-content__text-box__div__text-box__p">Son Goku</p>
+                        <strong class="menu-content__text-box__div__text-box__strong">2700 Ft</strong>
+                    </div>
                 </div>
             </div>
 
