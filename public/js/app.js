@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function updateFixedHeight() {
         var windowWidth = window.innerWidth;
 
-        if (windowWidth >= 2200) {
+        if (windowWidth >= 2200 || windowWidth >= 2000) {
             secondarySlider.options.fixedHeight = 300;
         } else {
             secondarySlider.options.fixedHeight = 200;
