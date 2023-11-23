@@ -233,6 +233,10 @@ header {
     background-position-y: -0.3em;
 }
 
+.menu-content {
+    padding-bottom: 5em !important;
+}
+
 .menu-content__text-box__div {
     width: 50%;
 }
