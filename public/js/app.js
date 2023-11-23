@@ -51,15 +51,26 @@ document.addEventListener('DOMContentLoaded', function() {
         focus: 'center',
         pagination: false,
         cover: true,
-        breakpoints: {
-            '600': {
-                fixedWidth: 66,
-                fixedHeight: 40,
-            }
-        },
         perPage: 6,
         gap: 5,
     }).mount();
+
+    function updateFixedHeight() {
+        var windowWidth = window.innerWidth;
+
+        if (windowWidth >= 2200) {
+            secondarySlider.options.fixedHeight = 300;
+        } else {
+            secondarySlider.options.fixedHeight = 200;
+        }
+
+        secondarySlider.refresh();
+    }
+
+    window.addEventListener('resize', updateFixedHeight);
+
+    updateFixedHeight();
+
 
 
     // Create the main slider.

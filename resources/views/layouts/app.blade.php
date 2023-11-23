@@ -61,13 +61,14 @@
             <div class="navbar__link-box t-end">
                 <p class="navbar__link-box__p">
                     <a class="navbar__link-box__p__link" href="tel:+36209834929">+36 20 983 4929
-                        <img class="navbar__link-box__p__link__img" src="img/header/phone.svg" alt="szenna"> </a>
+                        <img class="navbar__link-box__p__link__img position-relative" src="img/header/phone.svg"
+                            alt="szenna"> </a>
                 </p>
                 <p class="navbar__link-box__p">
                     <a class="navbar__link-box__p__link" target="_blank"
                         href="https://www.google.com/maps/place/Szenna,+%C3%81rp%C3%A1d+u.+39,+7477/@46.3046177,17.7246791,17z/data=!3m1!4b1!4m6!3m5!1s0x47681471df7c7e79:0xf162ba74a9e3baf8!8m2!3d46.304614!4d17.727254!16s%2Fg%2F11csj0vp_3?authuser=0&entry=ttu">
-                        Szenna, Árpád utca 39. <img class="navbar__link-box__p__link__img" src="img/header/map.svg"
-                            alt="szenna"> </a>
+                        Szenna, Árpád utca 39. <img class="navbar__link-box__p__link__img position-relative"
+                            src="img/header/map.svg" alt="szenna"> </a>
                 </p>
             </div>
         </nav>
