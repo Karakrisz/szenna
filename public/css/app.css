@@ -229,12 +229,15 @@ header {
 
 .menu-content {
     background-image: url(../img/menu/menu.webp);
-    background-size: 100% 100%;
-    background-position-y: -0.3em;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-bottom: 5em !important;
 }
 
-.menu-content {
-    padding-bottom: 5em !important;
+.menu-content--bg {
+    background: #ab815f;
 }
 
 .menu-content__text-box__div {
@@ -259,6 +262,11 @@ header {
 
 .menu-content__text-box__div__margin-left-box {
     margin-left: 3em;
+}
+
+.menu-content__text-box__div__text-box__p--margin {
+    margin-bottom: 1em;
+    width: 75%;
 }
 
 
