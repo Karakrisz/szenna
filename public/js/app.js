@@ -56,20 +56,25 @@ document.addEventListener('DOMContentLoaded', function() {
     }).mount();
 
     function updateFixedHeight() {
+
         var windowWidth = window.innerWidth;
 
-        if (windowWidth >= 2200 || windowWidth >= 2000 ) {
+        if (windowWidth >= 2200 || windowWidth >= 2000) {
             secondarySlider.options.fixedHeight = 300;
         } else if (windowWidth >= 1800) {
             secondarySlider.options.fixedHeight = 250;
-        } else if (windowWidth >= 1500 ) {
+        } else if (windowWidth >= 1500) {
             secondarySlider.options.fixedHeight = 220;
-        } else if (windowWidth >= 1400 ) {
+        } else if (windowWidth >= 1400) {
             secondarySlider.options.fixedHeight = 200;
-        } else if (windowWidth >= 1200 ) {
+        } else if (windowWidth >= 1200) {
             secondarySlider.options.fixedHeight = 170;
         } else if (windowWidth >= 992) {
             secondarySlider.options.fixedHeight = 150;
+        } else if (windowWidth >= 768) {
+            secondarySlider.options.fixedHeight = 100;
+        } else if (windowWidth >= 300) {
+            secondarySlider.options.fixedHeight = 50;
         } else {
             secondarySlider.options.fixedHeight = 200;
         }
@@ -80,6 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('resize', updateFixedHeight);
 
     updateFixedHeight();
+
 
     var primarySlider = new Splide('#primary-slider', {
         type: 'fade',
