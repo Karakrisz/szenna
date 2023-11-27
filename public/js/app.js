@@ -38,6 +38,75 @@ const menuManager = new MenuManager('hamburger', 'menu', '.navbar');
 
 // ********************  Menu end **********************
 
+// ********************  Slider start **********************
+
+class ScrollBottomAnimation {
+    constructor(selector) {
+        this.element = document.querySelector(selector);
+        this.init();
+    }
+
+    init() {
+        this.addScrollListener();
+    }
+
+    addScrollListener() {
+        window.addEventListener('scroll', () => this.checkScroll());
+    }
+
+    checkScroll() {
+        const boxTop = this.element.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if (boxTop < windowHeight) {
+            this.element.classList.add('animate-in');
+            window.removeEventListener('scroll', () => this.checkScroll);
+        }
+    }
+}
+
+const scrollBottomAnimation = new ScrollBottomAnimation('.slider-content__img');
+
+// ********************  Slider end **********************
+
+// ********************  About start **********************
+
+
+class ScrollAnimation {
+    constructor(selector) {
+        this.element = document.querySelector(selector);
+        this.init();
+    }
+
+    init() {
+        this.setInitialStyles();
+        this.addScrollListener();
+    }
+
+    setInitialStyles() {
+        this.element.style.opacity = 0;
+        this.element.style.transform = 'translateX(100%)';
+        this.element.style.transition = 'opacity 1.5s, transform 1.5s';
+    }
+
+    addScrollListener() {
+        window.addEventListener('scroll', () => this.checkScroll());
+    }
+
+    checkScroll() {
+        const boxTop = this.element.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if (boxTop < windowHeight) {
+            this.element.classList.add('animate-in');
+        }
+    }
+}
+
+const scrollAnimation = new ScrollAnimation('.about-content__img-text-box');
+
+// ********************  About end **********************
+
 /********************  Slide start **********************/
 
 

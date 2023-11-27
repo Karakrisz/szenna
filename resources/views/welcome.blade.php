@@ -370,7 +370,7 @@
 
             <div class="about-content__flex-box__div"></div>
 
-            <div class="about-content__img-text-box position-relative">
+            <div class="about-content__img-text-box position-relative about-content__img-text-box--animation">
                 <div class="about-content__img-text-box__bg-box position-absolute"></div>
                 <div class="about-content__img-text-box__text-box position-relative">
                     <h2 class="about-content__img-text-box__text-box__h2 text-transform-uppercase">MI VAGYUNK A</h2>
@@ -410,22 +410,22 @@
                         <img src="img/gallery/gallery.webp">
                     </li>
                     <li class="splide__slide">
-                        <img src="img/gallery/gallery2.jpg">
+                        <img src="img/gallery/gallery2.webp">
                     </li>
                     <li class="splide__slide">
-                        <img src="img/gallery/gallery3.jpg">
+                        <img src="img/gallery/gallery3.webp">
                     </li>
                     <li class="splide__slide">
-                        <img src="img/gallery/gallery4.jpg">
+                        <img src="img/gallery/gallery4.webp">
                     </li>
                     <li class="splide__slide">
-                        <img src="img/gallery/gallery5.jpg">
+                        <img src="img/gallery/gallery5.webp">
                     </li>
                     <li class="splide__slide">
-                        <img src="img/gallery/gallery6.jpg">
+                        <img src="img/gallery/gallery6.webp">
                     </li>
                     <li class="splide__slide">
-                        <img src="img/gallery/gallery7.jpg">
+                        <img src="img/gallery/gallery7.webp">
                     </li>
                 </ul>
             </div>
@@ -438,22 +438,22 @@
                         <img class="splide__slide__img" src="img/gallery/gallery.webp">
                     </li>
                     <li class="splide__slide">
-                        <img class="splide__slide__img" src="img/gallery/gallery2.jpg">
+                        <img class="splide__slide__img" src="img/gallery/gallery2.webp">
                     </li>
                     <li class="splide__slide">
-                        <img class="splide__slide__img" src="img/gallery/gallery3.jpg">
+                        <img class="splide__slide__img" src="img/gallery/gallery3.webp">
                     </li>
                     <li class="splide__slide">
-                        <img class="splide__slide__img" src="img/gallery/gallery4.jpg">
+                        <img class="splide__slide__img" src="img/gallery/gallery4.webp">
                     </li>
                     <li class="splide__slide">
-                        <img class="splide__slide__img" src="img/gallery/gallery5.jpg">
+                        <img class="splide__slide__img" src="img/gallery/gallery5.webp">
                     </li>
                     <li class="splide__slide">
-                        <img class="splide__slide__img" src="img/gallery/gallery6.jpg">
+                        <img class="splide__slide__img" src="img/gallery/gallery6.webp">
                     </li>
                     <li class="splide__slide">
-                        <img class="splide__slide__img" src="img/gallery/gallery7.jpg">
+                        <img class="splide__slide__img" src="img/gallery/gallery7.webp">
                     </li>
                 </ul>
             </div>

@@ -273,6 +273,18 @@ header {
 /********************  Menu formating end **********************/
 
 
+/********************  Slider formating start **********************/
+
+.slider-content__img {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1.5s, transform 1.5s;
+}
+
+
+/********************  Slider formating end **********************/
+
+
 /********************  About formating start **********************/
 
 .about-content__flex-box {
@@ -341,6 +353,11 @@ header {
 .about-content__flex-box__div,
 .footer-content__link-box {
     width: 60%;
+}
+
+.animate-in {
+    opacity: 1 !important;
+    transform: translateX(0) !important;
 }
 
 .about-content__img-text-box,
