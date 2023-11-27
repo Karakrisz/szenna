@@ -58,8 +58,18 @@ document.addEventListener('DOMContentLoaded', function() {
     function updateFixedHeight() {
         var windowWidth = window.innerWidth;
 
-        if (windowWidth >= 2200 || windowWidth >= 2000) {
+        if (windowWidth >= 2200 || windowWidth >= 2000 ) {
             secondarySlider.options.fixedHeight = 300;
+        } else if (windowWidth >= 1800) {
+            secondarySlider.options.fixedHeight = 250;
+        } else if (windowWidth >= 1500 ) {
+            secondarySlider.options.fixedHeight = 220;
+        } else if (windowWidth >= 1400 ) {
+            secondarySlider.options.fixedHeight = 200;
+        } else if (windowWidth >= 1200 ) {
+            secondarySlider.options.fixedHeight = 170;
+        } else if (windowWidth >= 992) {
+            secondarySlider.options.fixedHeight = 150;
         } else {
             secondarySlider.options.fixedHeight = 200;
         }
@@ -71,9 +81,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     updateFixedHeight();
 
-
-
-    // Create the main slider.
     var primarySlider = new Splide('#primary-slider', {
         type: 'fade',
         pagination: false,
@@ -81,7 +88,6 @@ document.addEventListener('DOMContentLoaded', function() {
         cover: true,
     });
 
-    // Set the thumbnails slider as a sync target and then call mount.
     primarySlider.sync(secondarySlider).mount();
 });
 
