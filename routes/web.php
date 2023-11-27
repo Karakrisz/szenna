@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\MenuController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,14 +29,15 @@ Route::group(['prefix' => 'admin'], function () {
 
 Route::get('/header', 'HeaderFooterController@getHeaderContent');
 
-// Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index']);
 Route::get('/', [PostController::class, 'index']);
-Route::get('/post/{post}', [PostController::class, 'show'])->name('post.show');
 
+Route::get('/post/{post}', [PostController::class, 'show'])->name('post.show');
 Route::get('/json-posts', [PostController::class, 'jsonPosts']);
 
 Route::get('/categories', [CategoryController::class, 'index']);
 
-Route::view('/blog', 'blog');
+Route::get('/etlap', [MenuController::class, 'index'])->name('etlap');
+Route::get('/rolunk', [AboutController::class, 'index'])->name('rolunk');
+Route::get('/kapcsolat', [ContactController::class, 'index'])->name('kapcsolat');
 
 Route::get('/footer', 'HeaderFooterController@getFooterContent');

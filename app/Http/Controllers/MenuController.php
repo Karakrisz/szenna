@@ -2,16 +2,17 @@
 
 namespace App\Http\Controllers;
 
-class AboutController extends Controller
+use Illuminate\Http\Request;
+
+class MenuController extends Controller
 {
     public function index()
     {
         $data = [
-            'title' => 'Rólunk',
+            'title' => 'Étlap',
             'content' => ''
         ];
     
-        return view('about.rolunk', $data);
+        return view('menu.etlap', $data);
     }
-
 }

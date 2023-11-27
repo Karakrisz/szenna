@@ -2,16 +2,15 @@
 
 namespace App\Http\Controllers;
 
-class AboutController extends Controller
+class ContactController extends Controller
 {
     public function index()
     {
         $data = [
-            'title' => 'Rólunk',
+            'title' => 'Kapcsolat',
             'content' => ''
         ];
     
-        return view('about.rolunk', $data);
+        return view('contact.kapcsolat', $data);
     }
-
 }

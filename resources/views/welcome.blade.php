@@ -1,11 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<section>
-    <div class="slider-content">
-        <img class="slider-content__img" src="img/slider/slider.png" alt="szenna">
-    </div>
-</section>
 
 <section>
     <div class="menu-content">

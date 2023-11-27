@@ -11,7 +11,7 @@
         style-src 'self' https: 'unsafe-inline';
         script-src 'self' https: 'unsafe-inline' 'unsafe-eval';
     ">
-    <title>Szenna Étterem</title>
+    <title>@yield('title', 'Szanna Étterem')</title>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,10 +53,10 @@
                 <img class="navbar-logo-box__img" src="img/header/logo.png" alt="szenna">
             </div>
             <ul class="menu d-flex" id="menu">
-                <li><a href="#">Kezdőlap</a></li>
-                <li><a href="#">Étlap</a></li>
-                <li><a href="#">Rólunk</a></li>
-                <li><a href="#">Kapcsolat</a></li>
+                <li><a href="/">Kezdőlap</a></li>
+                <li><a href="{{ route('etlap') }}">Étlap</a></li>
+                <li><a href="{{ route('rolunk') }}">Rólunk</a></li>
+                <li><a href="{{ route('kapcsolat') }}">Kapcsolat</a></li>
             </ul>
             <div class="navbar__link-box t-end">
                 <p class="navbar__link-box__p">
@@ -73,6 +73,13 @@
             </div>
         </nav>
     </header>
+
+    <section>
+        <div class="slider-content">
+            <img class="slider-content__img" src="img/slider/slider.png" alt="szenna">
+        </div>
+    </section>
+
 
     <main>
         @yield('content')
@@ -138,7 +145,7 @@
         </div>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script>
-        <script src="js/app.js"></script>
+        <script src="/js/app.js"></script>
     </footer>
 </body>
 
