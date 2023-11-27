@@ -445,178 +445,573 @@
 
             <div class="menu-content__text-box__div">
                 <div class="menu-content__text-box__div__margin-left-box">
-                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">PIZZA</h6>
+                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">PIZZÁK • PIZZAS • PIZZAS</h6>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Margarita</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            MARGARITAMargherita • Margherita
+                            (paradicsomszósz, rukkola, sajt) A, C, G
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Tomatensauce, Rucola, Käse)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(tomato sauce, rucola, cheese)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Sicilian</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            SONKÁS • Schinken • Ham
+                            (paradicsomszósz, sonka, paradicsomkarika, sajt) A, C, G
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Tomatensauce, Schinken,
+                                Tomatenringe, Käse)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(tomato sauce, ham, tomato ring,
+                                cheese)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Son Goku</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">2700 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            SON-GO-KU
+                            (paradicsomszósz, sonka, gomba, kukorica, rukkola, sajt) A, C, G
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Tomatensauce, Schinken, Pilze, Mais,
+                                Rucola, Käse)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(tomato sauce, ham, mushroom, sweet
+                                corn, rucola, cheese)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Magyaros</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            MAGYAROS • Ungarisch • Hungarian
+                            (paradicsomszósz, szalámi, bacon, hagyma, paradicsom, pepperoni, sajt) A, C, G
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Tomatensauce, Salami, Speck,
+                                Zwiebeln, Tomaten, Peperoni, Käse)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(tomato sauce, salami, bacon, onion,
+                                tomato, pepperoni, cheese)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Tonhalas</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            TONHALAS • Thunfisch • Tuna
+                            (paradicsomszósz, tonhal, hagyma, oliva, rukkola, citrom, sajt) A, C, G, D
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Tomatensauce, Thunfisch, Zwiebeln,
+                                Oliven, Rucola, Zitrone, Käse)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(tomato sauce, tuna, onion, olive,
+                                rucola, lemon, cheese)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Húsimádó</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">2700 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            HÚSIMÁDÓ • Fleischliebhaber • Meat lover
+                            (paradicsomszósz, sonka, szalámi, bacon, gyros hús, rukkola, sajt) A, C, G
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Tomatensauce, Schinken, Salami,
+                                Speck, Gyrosfleisch, Rucola, Käse)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(tomato sauce, ham, salami, bacon,
+                                gyro meat,rucola,cheese)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Szennai tüzes</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            SZENNAI TÜZES • Feurig von Szenna • Fiery from Senna
+                            (paradicsomszósz, húsos ragu, szalámi, sonka, hegyes erős paprika, rukkola, fokhagyma, sajt)
+                            A, C, G, D, N
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Tomatensauce, Fleischragout, Salami,
+                                Schinken, scharfe Peperoni, Rucola, Knoblauch, Käse)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(tomato sauce, pork stew, salami,
+                                ham, hot green pepper, rucola, garlic, cheese)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">4 sajtos</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            4 SAJTOS • 4 Käse • 4 cheese
+                            (paradicsomszósz, sajt mix, paradicsom, rukkola) A, C, G, D, N
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Tomatensauce, Käsemischung, Tomaten,
+                                Rucola)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(tomato sauce, cheese mix, tomato,
+                                rucola,)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Napsütötte</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">2700 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            NAPSÜTÖTTE • Es war sonnig • It was sunny
+                            (tejfölös szósz, bacon, kukorica, hagyma, tojás, sajt) A, C, G, S, N
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Sauerrahmsauce, Speck, Mais,
+                                Zwiebeln, Ei, Käse)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(sour cream sauce, bacon, corn,
+                                onion, egg, cheese)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Séf ajánlata</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            SÉFBATYU • Chefkoch ”Batyu” • Chef ”Batyu”
+                            (paradicsomszósz, csirkemell, vöröshagyma, gomba, sajt) A, C, G, D, N
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Tomatensauce, Hähnchenbrust, rote
+                                Zwiebeln, Pilze, Käse)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(tomato sauce, chicken breast, red
+                                onion, mushroom, cheese)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Hawaii</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            HAWAII • Hawaii • Hawaii
+                            (paradicsomszósz, sonka, ananász, oliva, sajt) A, C, G, D
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Tomatensauce, Schinken, Ananas,
+                                Oliven, Käse)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(tomato sauce, ham, pineapple, olive,
+                                cheese)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Kukori</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">2700 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            KUKORI • Kukori • Kukori
+                            (paradicsomszósz, sonka, kukorica, sajt) A, C, G, D
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Tomatensauce, Schinken, Mais,
+                                Käse)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(tomato sauce, ham, corn, cheese)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Csibém</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            CSIBÉM • Mein Küken • My chick
+                            (tejfölös alap, csirkehús, jalapeno paprika, sonka, sajt) A, C, G, D
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Sauerrahmbasis, Hühnerfleisch,
+                                Jalapenopfeffer, Schinken, Käse)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(sour cream base, chicken meat,
+                                jalapeno pepper, ham, cheese)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Kívánság</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            KÍVÁNSÁG • Wunsch • Wish
+                            (alap + 5 feltét) A, C, G, D, N
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Basis + 5 Toppings)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(basic + 5 toppings)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
-                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">TÉSZTA</h6>
+                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">TÉSZTÁK • PASTA • PASTA</h6>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Bolognai spagetti</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
-                    </div>
-
-                    <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Sajtos tészta</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
-                    </div>
-
-                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">GYROS</h6>
-
-                    <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Gyros tál</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">1450 Ft</strong>
-                    </div>
-
-                    <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Dupla húsos gyros tál</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">2950 Ft</strong>
-                    </div>
-
-                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">KÖRET</h6>
-
-                    <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Jázmin rizs</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">950 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            BOLOGNAI SPAGETTI
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Spaghetti Bolognese</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i"> Spaghetti Bolognese
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Galuska</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">1950 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            SAJTOS TÉSZTA
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Nudeln mit Käse</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Pasta with cheese
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
+                    </div>
+
+                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">GYROSOK • GYROS • GYROS</h6>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            GYROS TÁL – hasábburgonya, gyroshús, vegyes zöldség
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Gyros-Teller – Pommes Frites,
+                                Gyros-Fleisch, gemischtes Gemüse, Soße</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Gyros plate – French fries, gyro
+                                meat, mixed vegetables
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Hasábburgonya</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">950 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            DUPLA HÚSOS GYROS TÁL választható szósszal
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Doppelfleisch Gyros-Teller mit
+                                optionaler Soße</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Gyros plate with double gyros meat
+                                with optional sauce
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
+                    </div>
+
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            SZÓSZOK: csípős, kapros, fokhagymás
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Soßen: scharf, Dill, Knoblauch</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Sauces: hot, dill, garlic
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
+                    </div>
+
+                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">KÖRETEK • BEILAGEN • GARNISHES
+                    </h6>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            JÁZMIN RIZS
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Jasmin Reis </i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Jasmine
+                                rice
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Burgonyakrokett</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">1950 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            GALUSKA
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Nudeln </i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Noodle
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Grillezett zöldségek</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">950 Ft</strong>
-                    </div>
-
-                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">SALÁTA</h6>
-
-                    <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Friss saláta</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">950 Ft</strong>
-                    </div>
-
-                    <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Csirkesaláta</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">1950 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            HASÁBBURGONYA
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Pommes frittes </i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">French fries
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Görög saláta</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">950 Ft</strong>
-                    </div>
-
-                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">SAVANYÚSÁG</h6>
-
-                    <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Káposztasaláta</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">950 Ft</strong>
-                    </div>
-
-                    <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Csemege uborka</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">1950 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            BURGONYAKROKETT
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Kartoffelkroketten </i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Croquette
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Csípős almapaprika</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">950 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            GRILL ZÖLDSÉGEK (A, E, H, I)
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Gegrilltes Gemüse </i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Grilled vegetables
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
+                    </div>
+
+                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">SALÁTÁK • SALATE • SALADS</h6>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            FRISS SALÁTA
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Frischer Salat</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Fresh salad
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Vegyes savanyúság</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">1950 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            CSIRKESALÁTA • Hühnersalat • Chicken salad
+                            (saláta, paradicsom, paprika, uborka, lilahagyma, grillezett csirkehúsok, sajt) (A, C, G, I)
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Salat, Tomate, Paprika, Gurke, rote
+                                Zwiebel, gegrilltes Hähnchen, Käse)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(lettuce, tomato, green pepper,
+                                cucumber, red onion, grilled chicken breast sticks, cheese)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
-                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">DESSZERT</h6>
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            GÖRÖG SALÁTA • Griechischer Salat • Greek salad
+                            (saláta, paprika, paradicsom, uborka, lilahagyma, olivabogyó, feta sajt) (G, I)
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(Salat, Paprika, Tomate, Gurke rote
+                                Zwiebl, Oliven, Feta-Käsa)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">(lettuce, green pepper, tomato,
+                                cucumber, red onion, olives, feta cheese)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
+                    </div>
+
+                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">SAVANYÚSÁG • SAUER EINGELEGTES
+                        GEMÜSE• PICKLES</h6>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Fagylaltkehely</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">950 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            KÁPOSZTASALÁTA
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Krautsalat</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Cabbage salad
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                     <div class="menu-content__text-box__div__text-box d-flex">
-                        <p class="menu-content__text-box__div__text-box__p">Csoki brownie vaníliás fagylalttal</p>
-                        <strong class="menu-content__text-box__div__text-box__strong">1950 Ft</strong>
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            CSEMEGEUBORKA
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Eingelegte Gurke</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Pickled gherkins
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            CSÍPŐS ALMAPAPRIKA
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Eingelegte scharfe Apfelpaprika</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Hot pepper
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            VEGYES SAVANYÚSÁG
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Gemischte Gemüse</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Mixed pickles
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
+                    </div>
+
+                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">DESSZERTEK • NACHSPEISEN •
+                        DESSERTS</h6>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            FAGYLALTKEHELY (G)
+                            (2 gombóc, tejszínhab, erdei gyümölccsel)
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Eisbecher
+                                (2 Kugeln, Schlagsahne, mit Waldfrüchten)</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Ice Cream Cup
+                                (2 scoops, whipped cream, with forest fruit)
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            CSOKI BROWNIE VANÍLIA FAGYIVAL (A, C, E, G, H)
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Schokoladen-Brownie mit
+                                Vanilleeis</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Chocolate brownie with vanilla ice
+                                cream
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
+                    </div>
+
+                    <h6 class="menu-content__text-box__div__h6 text-transform-uppercase">EGYEBEK • EXTRAS • EXTRAS</h6>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            KENYÉR
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Bread</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Bread
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            MUSTÁR, KETCHUP, MAJONÉZ, SÉFSZÓSZ
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Senf, Ketchup, Mayonnaise</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Chefsauce • Mustard, ketchup,
+                                mayonnaise, chef sauce
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            SAJT
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Käse</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Cheese
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            HÚS FELTÉT PIZZÁRA
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Fleischbelag für Pizza </i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Meat topping onto pizza
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
+                    </div>
+
+                    <div class="menu-content__text-box__div__text-box d-flex">
+                        <p
+                            class="menu-content__text-box__div__text-box__p menu-content__text-box__div__text-box__p--margin">
+                            HAL PIZZÁRA
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Fisch auf Pizza</i>
+                            <br>
+                            <i class="menu-content__text-box__div__text-box__p__i">Fish topping onto pizza
+                            </i>
+                        </p>
+                        <strong class="menu-content__text-box__div__text-box__strong"> Ft</strong>
                     </div>
 
                 </div>
